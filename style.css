@@ -1,0 +1,40 @@
+header, footer {
+    background-color: lightblue;
+    color: white;
+}
+
+header {
+    font-size: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+footer {
+    font-size: 20px;
+    text-align: center;
+}
+
+a:link {color: white;}
+a:visited {color: lightskyblue;}
+a:hover {color: lightgreen;}
+a:active {color: pink;}
+
+body {
+    background-color:lightcyan;
+}
+
+body article h2, p {
+    text-align: center;
+    color: lightslategray;
+    margin:10px;
+}
+
+ul, li {
+    text-align: center;
+    color: lightslategray;
+    list-style-position: inside;
+}
