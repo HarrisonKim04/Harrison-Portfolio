@@ -6,6 +6,12 @@ header, footer {
 header {
     font-size: 30px;
     text-align: center;
+    padding: 10 px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    height: 40px;
 }
 
 h2 {
@@ -18,7 +24,7 @@ footer {
     text-align: center;
 }
 
-a:link {color: white;}
+a:link {color: lightseagreen;}
 a:visited {color: lightskyblue;}
 a:hover {color: lightgreen;}
 a:active {color: pink;}
@@ -38,3 +44,4 @@ ul, li {
     color: lightslategray;
     list-style-position: inside;
 }
+
