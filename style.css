@@ -1,44 +1,63 @@
+/* Adding different colors to the header and footer section to differentiate */
 header, footer {
     background-color: lightblue;
     color: white;
 }
 
+/* Adjusting size, alignment and appearance of the header */
 header {
     font-size: 30px;
     text-align: center;
     padding: 10 px;
 }
 
+/* Adjusting font and the height of h1 */
 h1 {
     font-family: 'Times New Roman', Times, serif;
     height: 40px;
 }
 
+/* Adjusting the font and margin of h2 */
 h2 {
     font-size: 20px;
     margin: 10px;
 }
+/* Adjusting the width and height of the image of NYC */
+img {
+    height: 600px;
+    width: 800px;
+}
 
+/* Center the image */
+div {
+    text-align: center
+}
+
+/* Adjusting height of footer and center */
 footer {
     font-size: 20px;
     text-align: center;
 }
 
+/* Adjusting colors of the links in the navigation links and contact links */
 a:link {color: lightseagreen;}
 a:visited {color: lightskyblue;}
 a:hover {color: lightgreen;}
 a:active {color: pink;}
 
+/* Adjusting background color of the rest of the website */
 body {
     background-color:lightcyan;
 }
 
+/* Changing color, alignment, and margin of h2 inside the article */
 body article h2, p {
     text-align: center;
     color: lightslategray;
     margin:10px;
 }
 
+/* To center the text, color, and the bullet point positioning of the elements inside the ordered and unordered lists*/
 ul, li {
     text-align: center;
     color: lightslategray;
